@@ -1,2 +1,93 @@
 
 /* Your CSS Code here. */
+*{
+margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.holder, .item{
+	
+	display:flex;
+	/* background-color:pink; */
+	flex-direction: row;
+	justify-content: space-evenly;
+		/* flex-direction: row-reverse; */
+
+}
+.item{
+	margin-top: 50px;
+	flex-wrap:wrap;
+}
+.box{
+	font-size:40px;
+	width:100px;
+	height:100px;
+}
+
+
+
+
+#box1{
+		order: 2;
+
+	background-color:red;
+}
+#box2{
+		order: 3;
+
+		background-color:blue;
+
+}
+#box3{
+	order: 1;
+
+		background-color:green;
+
+}
+
+
+#boxitem1{
+		order: 2;
+
+	background-color:red;
+}
+#boxitem2{
+		order: 3;
+
+		background-color:blue;
+
+}
+#boxitem3{
+	order: 1;
+
+		background-color:green;
+
+}
+
+#boxitem4{
+	order: 1;
+
+		background-color:green;
+
+}
+#boxitem5{
+	order: 1;
+
+		background-color:green;
+
+}
+#boxitem6{
+	order: 1;
+
+		background-color:green;
+
+}
+#boxitem7{
+	order: 1;
+
+		background-color:green;
+
+}
+
+
+	
